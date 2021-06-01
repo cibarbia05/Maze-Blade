@@ -1,0 +1,77 @@
+.button{
+    -fx-background-size: 25px;
+    -fx-border-width: 5;
+    -fx-border-color: #2f4f4f;
+    -fx-border-radius: 5px;
+    -fx-background-color: #307c6e;
+    -fx-text-fill: #000000;
+    -fx-font-family: "High Tower Text";
+    -fx-font-size: 15px;
+    -fx-background-radius: 10px;
+    -fx-cursor:hand;
+    -fx-effect: dropshadow( three-pass-box, #082434, 10.0, 0.0, 0.0, 0.0);
+}
+.button:hover{
+    -fx-background-color:  #346f85;
+    -fx-font-weight:bold;
+
+
+}
+.menu-button{
+    -fx-background-size: 25px;
+    -fx-border-width: 5;
+    -fx-border-color: #2f4f4f;
+    -fx-border-radius: 5px;
+    -fx-background-color: #307c6e;
+    -fx-text-fill: #000000;
+    -fx-font-family: "High Tower Text";
+    -fx-font-size: 15px;
+    -fx-background-radius: 10px;
+    -fx-cursor:hand;
+    -fx-effect: dropshadow( three-pass-box, #082434, 10.0, 0.0, 0.0, 0.0);
+}
+.menu-button:hover{
+    -fx-background-color:  #346f85;
+    -fx-font-weight:bold;
+
+}
+.menu-item {
+    -fx-background-size: 25px;
+    -fx-border-width: 5;
+    -fx-text-fill: #000000;
+    -fx-font-family: "High Tower Text";
+    -fx-font-size: 15px;
+    -fx-background-radius: 10px;
+    -fx-cursor:hand;
+}
+.menu-item:hover{
+    -fx-background-color:  #346f85;
+    -fx-font-weight:bold;
+
+}
+#label1{
+    -fx-font-size: 35px;
+    -fx-text-fill: #0a290a;
+    -fx-font-family: "Eras Bold ITC";
+
+}
+#label1:hover{
+    -fx-text-fill: #11454f;
+    -fx-effect: dropshadow( three-pass-box, #082434, 1, 0.0, 0.0, 0.0);
+
+
+}
+.dialog-pane .button{
+    -fx-background-color: #307c6e;
+    -fx-text-fill:black;
+    -fx-wrap-text: true;
+    -fx-cursor:hand;
+}
+
+.dialog-pane .button:hover{
+    -fx-background-color: #346f85;
+    -fx-font-weight:bold;
+}
+
+
+
